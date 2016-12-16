@@ -1,0 +1,14 @@
+/* this is where all of your CSS styles go */
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: black;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#cursor{
+    cursor: pointer;
+}

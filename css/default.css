@@ -1,0 +1,205 @@
+/* this is where all of your CSS styles go */
+@font-face{
+	font-family: webfont;
+	src: url('../fonts/bauhaus.ttf');
+}
+
+#container {
+	width: 900px;
+	height: 600px;
+	border: none;
+	position: fixed;
+	left: 50%;
+	margin-left: -450px;
+	border: none;
+}
+#containButton{
+	width:1200px;
+	height:800px;
+	border: 1px;
+	position:fixed;
+	left:50%;
+	top:80px;
+	margin-left:-470px;
+}
+
+.buttons {
+	display: block;
+	width: 30px;
+	height: 70px;
+	position: relative;
+	
+
+}
+
+.menu_btns {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+
+}
+
+.menu_txt {
+	position: absolute;
+	width: 52px;
+	text-align: center;
+	left: 50%;
+	margin-left: -26px;
+	top: 20px;
+	font-family: webfont, serif;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-top: 10px;
+}
+#VocBoardText{
+	top:100px;
+	width:12%;
+	position:fixed;
+	left:230px;
+}
+#playMenu{
+	top:140px;
+	left:250px;
+	position: fixed;
+	width:15px;
+}
+#homeMenu{
+	top:140px;
+	left:280px;
+	position: fixed;
+	width:15px;
+}
+
+
+#map{
+	height: 80%;
+	width: 80%;
+	position: fixed;
+	left: 10%;
+	top: 10%;
+	margin-right:-50%;
+}
+#end{
+	width:100px;
+	position:fixed;
+	left:1047px;
+	top:458px;
+}
+#moveRed{
+	width:50px;
+	height: 20px;
+	position:fixed;
+	left:512px;
+	top:502px;
+	border: none;
+	transform-origin: 100% 0px;
+	animation: rotate 10s infinite;
+
+}
+
+
+@keyframes rotate {
+	0%{-webkit-transform: rotate(0deg);}
+	50%{-webkit-transform: rotate(-180deg);}
+	100%{-webkit-transform: rotate(0 deg);}
+}
+
+
+
+
+
+#fluidTop{
+	width:207px;
+	height:80px;
+	position: fixed;
+	left:629px;
+	top:462px;
+	animation: updownFluid 10s infinite;
+}
+
+@keyframes updownFluid{
+	0%{top:462px;}
+
+	20%{top:435px;}
+	40%{top:435px;}
+	60%{top:435px;}
+	80%{top:435px;}
+	100%{top:462px;}
+
+}
+#fluidUnder{
+	width:209px;
+	height:50px;
+	position: fixed;
+	left:627px;
+	top:490px;
+}
+
+#sharpHidingBar{
+	width:153px;
+	height:25px;
+	position: fixed;
+	left:187px;
+	top:320px;
+
+}
+#sharpPiece{
+	width:153px;
+	height:25px;
+	position: fixed;
+	left:187px;
+	top:290px;
+
+	animation: updown 10s infinite;
+
+}
+
+@keyframes updown{
+	0%{top:295px;}
+
+	20%{top:320px;}
+	40%{top:320px;}
+	60%{top:320px;}
+	80%{top:320px;}
+	100%{top:295px;}
+
+}
+#ball { /* this is the metal ball that users can move around */
+	width: 20px;
+	position: fixed;
+	left: 240px;
+	top: 220px;
+}
+
+#axisHome{
+	background: url("../images/axisHome.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	border: none;
+	height: 500px;
+	width: 900px;
+	position: relative;
+	left: 50%;
+	top: 140px;
+	margin-left: -450px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: blue;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
